@@ -75,18 +75,9 @@ ribi::Help ribi::PerfectElasticCollisionMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::PerfectElasticCollisionMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const ribi::Program> p {
-    new ProgramPerfectElasticCollision
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::PerfectElasticCollisionMenuDialog::GetVersion() const noexcept
 {
-  return "1.2";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::PerfectElasticCollisionMenuDialog::GetVersionHistory() const noexcept
@@ -95,6 +86,7 @@ std::vector<std::string> ribi::PerfectElasticCollisionMenuDialog::GetVersionHist
     "2010-08-14: version 1.0: initial version",
     "2012-03-07: version 1.1: added versioning. Added menu screen",
     "2013-11-04: version 1.2: conformized to ProjectRichelBilderbeekConsole",
+    "2015-11-20: version 2.0: moved to own GitHub",
   };
 }
 

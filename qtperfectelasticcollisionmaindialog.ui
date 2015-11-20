@@ -14,7 +14,7 @@
    <string>PerfectElasticCollision</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolPerfectElasticCollision.qrc">
+   <iconset resource="PerfectElasticCollision.qrc">
     <normaloff>:/images/R.png</normaloff>:/images/R.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
@@ -120,7 +120,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="ToolPerfectElasticCollision.qrc"/>
+  <include location="PerfectElasticCollision.qrc"/>
  </resources>
  <connections/>
 </ui>

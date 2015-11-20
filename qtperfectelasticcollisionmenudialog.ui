@@ -19,30 +19,17 @@
    <string>PerfectElasticCollision</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolPerfectElasticCollision.qrc">
+   <iconset resource="PerfectElasticCollision.qrc">
     <normaloff>:/images/R.png</normaloff>:/images/R.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="label_title">
      <property name="text">
-      <string>PerfectElasticCollision</string>
-     </property>
-     <property name="pixmap">
-      <pixmap>:/images/ToolMazeCreatorWelcome.png</pixmap>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="label_image">
-     <property name="text">
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolPerfectElasticCollision.qrc">:/images/ToolPerfectElasticCollision.png</pixmap>
+      <pixmap resource="PerfectElasticCollision.qrc">:/images/PerfectElasticCollision.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -73,7 +60,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="ToolPerfectElasticCollision.qrc"/>
+  <include location="PerfectElasticCollision.qrc"/>
  </resources>
  <connections/>
 </ui>
