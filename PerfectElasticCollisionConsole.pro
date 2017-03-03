@@ -1,7 +1,8 @@
 include(../RibiLibraries/ConsoleApplication.pri)
-#include(../RibiLibraries/Apfloat.pri)
-include(../RibiLibraries/Boost.pri)
-include(../RibiLibraries/GeneralConsole.pri)
+include(../RibiClasses/CppAbout/CppAbout.pri)
+include(../RibiClasses/CppFileIo/CppFileIo.pri)
+include(../RibiClasses/CppHelp/CppHelp.pri)
+include(../RibiClasses/CppMenuDialog/CppMenuDialog.pri)
 
 include(../RibiClasses/CppContainer/CppContainer.pri)
 include(../RibiClasses/CppFuzzy_equal_to/CppFuzzy_equal_to.pri)
