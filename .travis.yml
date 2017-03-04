@@ -35,11 +35,11 @@ before_script:
 
 script: 
   # Console
-  - qmake PerfectElasticCollisionConsole.pro
+  - qmake -qt=qt5 PerfectElasticCollisionConsole.pro
   - make debug
   - ./PerfectElasticCollisionConsole
   # Desktop
-  - qmake PerfectElasticCollisionDesktop.pro
+  - qmake -qt=qt5 PerfectElasticCollisionDesktop.pro
   - make debug
   - ./PerfectElasticCollisionDesktop &
   - sleep 10
