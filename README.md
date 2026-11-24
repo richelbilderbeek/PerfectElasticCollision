@@ -1,5 +1,7 @@
 # PerfectElasticCollision
 
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/PerfectElasticCollision/).
+
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/PerfectElasticCollision.svg?branch=master)](https://travis-ci.org/richelbilderbeek/PerfectElasticCollision)|[![codecov.io](https://codecov.io/github/richelbilderbeek/PerfectElasticCollision/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/PerfectElasticCollision/branch/master)
