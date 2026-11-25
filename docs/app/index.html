@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PerfectElasticCollision</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  main { width: 100%; max-width: 520px; padding: 8px; box-sizing: border-box; }
+  canvas {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #010101;
+    border-radius: 6px;
+  }
+  .controls { display: grid; grid-template-columns: auto 1fr 3.5em; gap: 6px 10px; align-items: center; margin-top: 10px; }
+  .controls label { white-space: nowrap; }
+  .controls output { text-align: right; font-variant-numeric: tabular-nums; }
+  .controls input[type=range] { width: 100%; }
+  .bottom { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; gap: 10px; flex-wrap: wrap; }
+  .swatch { display: inline-block; width: 0.8em; height: 0.8em; border-radius: 50%; vertical-align: -0.05em; margin-right: 4px; }
+  #status { font-variant-numeric: tabular-nums; }
+  #error { color: #c62828; }
+</style>
+</head>
+<body>
+<main>
+  <canvas id="canvas" width="500" height="500" aria-label="Two globes colliding, with impulses before and after the collision"></canvas>
+
+  <div class="controls">
+    <label for="angle_impulse1"><span class="swatch" style="background:#f00"></span>Impulse angle 1</label>
+    <input id="angle_impulse1" type="range" min="0" max="359" value="62">
+    <output for="angle_impulse1"></output>
+
+    <label for="speed_impulse1"><span class="swatch" style="background:#f00"></span>Impulse size 1</label>
+    <input id="speed_impulse1" type="range" min="0" max="100" value="50">
+    <output for="speed_impulse1"></output>
+
+    <label for="angle_collision">Collision angle</label>
+    <input id="angle_collision" type="range" min="0" max="359" value="51">
+    <output for="angle_collision"></output>
+
+    <label for="angle_impulse2"><span class="swatch" style="background:#00f"></span>Impulse angle 2</label>
+    <input id="angle_impulse2" type="range" min="0" max="359" value="273">
+    <output for="angle_impulse2"></output>
+
+    <label for="speed_impulse2"><span class="swatch" style="background:#00f"></span>Impulse size 2</label>
+    <input id="speed_impulse2" type="range" min="0" max="100" value="50">
+    <output for="speed_impulse2"></output>
+  </div>
+
+  <div class="bottom">
+    <label><input id="demo" type="checkbox"> Demo</label>
+    <span id="status">Loading WebAssembly&hellip;</span>
+  </div>
+  <p id="error" hidden></p>
+</main>
+
+<script src="perfect_elastic_collision.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -18,4 +18,11 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
+# Build the WebAssembly version for the Play page, if Emscripten is installed
+if command -v em++ > /dev/null; then
+  ./wasm/build.sh
+else
+  echo "em++ not found: the Play page will not work locally"
+fi
+
 zensical serve

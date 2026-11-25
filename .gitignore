@@ -29,3 +29,7 @@
 *.pro.user
 
 site/
+
+# WebAssembly build output, created by wasm/build.sh
+docs/app/perfect_elastic_collision.js
+docs/app/perfect_elastic_collision.wasm
