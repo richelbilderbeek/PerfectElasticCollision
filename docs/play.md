@@ -11,4 +11,4 @@ compiled to [WebAssembly](https://webassembly.org/).
 
 <iframe src="../app/index.html" title="PerfectElasticCollision" style="width: 100%; height: 720px; border: 0;"></iframe>
 
-[Open full screen](../app/index.html)
+[Open full screen](app/index.html)
