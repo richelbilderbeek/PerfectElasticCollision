@@ -2,7 +2,8 @@
 
 Experiment with perfect elastic collision impulses.
 
-PerfectElasticCollision is one of [Richèl Bilderbeek's tools](https://richelbilderbeek.github.io/tools/).
+PerfectElasticCollision is one of [Richèl Bilderbeek's
+tools](https://richelbilderbeek.github.io/tools/).
 
 [Run it in your browser](play.md).
 

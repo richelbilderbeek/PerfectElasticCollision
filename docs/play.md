@@ -9,6 +9,7 @@ compiled to [WebAssembly](https://webassembly.org/).
 - Gray lines: impulses after the collision
 - Check 'Demo' to let the angles change by themselves
 
+<!-- markdownlint-disable-next-line MD013 MD033 -->
 <iframe src="app/index.html" title="PerfectElasticCollision" style="width: 100%; height: 720px; border: 0;"></iframe>
 
 [Open full screen](app/index.html)

@@ -1,6 +1,7 @@
 # PerfectElasticCollision
 
-[Go to the nicely rendered website](https://richelbilderbeek.github.io/PerfectElasticCollision/).
+[Go to the nicely rendered
+website](https://richelbilderbeek.github.io/PerfectElasticCollision/).
 
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
